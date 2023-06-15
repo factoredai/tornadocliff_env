@@ -1,7 +1,7 @@
 # **Tornado Cliff Env**
 
 <p align="center">
-  <img src="src/tornado_cliff_env/vid/example.gif" alt="TonadoCliffWalking Example" height="240"/>
+  <img src="src/tornadocliff_env/vid/example.gif" alt="TonadoCliffWalking Example" height="240"/>
 </p>
 
 
