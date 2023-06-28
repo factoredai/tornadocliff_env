@@ -39,7 +39,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="Tornado Cliff Walking",
+    name="TornadoCliff",
     version=_VERSION,
     author="Daniel Ávila Vera",
     author_email="davera.017@gmail.com",

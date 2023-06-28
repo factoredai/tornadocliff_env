@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tornadocliff-env"
+name = "TornadoCliff"
 version = "0.1.0"
 description = "A variation of Gymnasium's CliffWalking enviroment."
 authors = ["Daniel Ávila Vera <davera.017@gmail.com>"]
