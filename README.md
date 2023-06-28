@@ -76,7 +76,7 @@ As cliff walking is not stochastic, the transition probability returned always 1
 
 ```bash
 git clone https://github.com/factoredai/tornadocliff_env
-cd tornadocliff-env
+cd tornadocliff_env
 pip install -e .
 ```
 
