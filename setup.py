@@ -46,10 +46,10 @@ setup(
     description=short_description,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/davera-017/TornadoCliffWalking",
+    url="https://github.com/factoredai/tornadocliff_env",
     project_urls={
-        "Bug Tracker": "https://github.com/markub3327/TornadoCliffWalking/issues",
+        "Bug Tracker": "https://github.com/factoredai/tornadocliff_env/issues",
     },
-    download_url="https://github.com/markub3327/TornadoCliffWalking/releases",
+    download_url="https://github.com/factoredai/tornadocliff_env/releases",
     python_requires=">=3.9.0",
 )
