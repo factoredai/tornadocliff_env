@@ -26,3 +26,4 @@ jobs:
         with:
           options: "--check --verbose"
           src: "."
+          version: "23.3.0"
