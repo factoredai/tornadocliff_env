@@ -291,7 +291,7 @@ class TornadoCliffEnv(Env):
 
         return ([int(s_elf), int(s_tornado)], r, t, False, {"prob": p})
 
-    def reset(self, *, seed: Optional[int] = None) -> Tuple[List[int], Dict]:
+    def reset(self, seed: Optional[int] = None, **kwargs) -> Tuple[List[int], Dict]:
         """
         Parameters
         ----------
@@ -303,7 +303,7 @@ class TornadoCliffEnv(Env):
         Tuple[List[int], Dict]
             Tuple of  ``(new_state, extra_info)``
         """
-        super().reset(seed=seed)
+        super().reset(seed=seed, **kwargs)
 
         self.s_tornado = categorical_sample(self.tornado_initial_st_dist, self.np_random)
         self.s_elf = categorical_sample(self.elf_initial_st_dist, self.np_random)
